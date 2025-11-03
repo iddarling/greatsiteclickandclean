@@ -37,8 +37,7 @@ N001_PRML/
 Клонируйте репозиторий и перейдите в корень проекта:
 
 ```bash
-git clone https://github.com/ваш-профиль/ClickAndClean.git
-cd N001_PRML
+git clone https://github.com/iddarling/greatsiteclickandclean.git
 ```
 
 ### Установка зависимостей
