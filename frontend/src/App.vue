@@ -1,10 +1,13 @@
 <template>
-  <HeaderBar />
-  <RouterView />
-  <MobileTabbar />
+  <div class="main_body">
+    <HeaderBar />
+    <RouterView />
+    <MobileTabbar />
+  </div>
 </template>
 
 <script setup>
+
 import HeaderBar from "./components/HeaderBar.vue";
 import MobileTabbar from "./components/MobileTabbar.vue";
 </script>
