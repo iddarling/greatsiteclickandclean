@@ -1,5 +1,5 @@
 <template>
-  <div class="main_body">
+  <div class>
     <HeaderBar />
     <RouterView />
     <MobileTabbar />
