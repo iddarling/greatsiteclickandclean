@@ -1,0 +1,130 @@
+/* Стили для страницы заказов */
+.glass {
+    background: var(--surface);
+    border-radius: var(--radius-16);
+    padding: 24px;
+    box-shadow: var(--shadow-1);
+}
+
+.glass h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid rgba(0, 0, 0, .08);
+    box-shadow: var(--shadow-1);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.chip:hover {
+    background: #f2fff8;
+}
+
+.chip.active {
+    background: var(--primary);
+    color: white;
+    border-color: transparent;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .95rem;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 24px;
+    background: var(--surface);
+}
+
+.orders-table th,
+.orders-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, .06);
+    vertical-align: top;
+}
+
+.orders-table th {
+    font-weight: 800;
+    background: linear-gradient(180deg, #f9fffb, #eefcf4);
+    color: var(--ink);
+}
+
+.status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: .85rem;
+    border: 1px solid rgba(0, 0, 0, .06);
+}
+
+.status--new {
+    background: #d8fbe8;
+    color: #0b7a49;
+    border-color: #b7efd6;
+}
+
+.status--active {
+    background: #fff4cf;
+    color: #a97400;
+    border-color: #f2dea0;
+}
+
+.status--done {
+    background: #ebedf0;
+    color: #354052;
+    border-color: #d5d9df;
+}
+
+.orders-mobile {
+    display: none;
+}
+
+.order-card {
+    padding: 16px;
+    border-radius: var(--radius-16);
+    background: var(--surface);
+    border: 1px solid rgba(0, 0, 0, .05);
+    box-shadow: var(--shadow-1);
+    margin-bottom: 16px;
+}
+
+.order-card h4 {
+    margin: 0 0 8px;
+    color: var(--primary);
+    font-size: 16px;
+}
+
+.order-meta {
+    font-size: .95rem;
+    color: var(--ink);
+    margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+    .orders-table {
+        display: none;
+    }
+    
+    .orders-mobile {
+        display: block;
+    }
+}

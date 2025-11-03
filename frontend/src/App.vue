@@ -1,5 +1,5 @@
 <template>
-  <div class>
+  <div>
     <HeaderBar />
     <RouterView />
     <MobileTabbar />
