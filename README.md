@@ -63,7 +63,7 @@ npm install
 
 ```bash
 cd backend
-npm run dev
+npx nodemon server.js
 ```
 
 > Если `nodemon` не установлен — можно использовать `node server.js`.
@@ -109,7 +109,7 @@ export default {
 
 | Команда | Где запускать | Описание |
 |----------|----------------|-----------|
-| `npm run dev` | backend | Запуск сервера с автоматическим перезапуском |
+| `npx nodemon server.js` | backend | Запуск сервера с автоматическим перезапуском |
 | `npm start` | backend | Обычный запуск сервера |
 | `npm run dev` | frontend | Запуск фронтенда (Vite) |
 | `npm run build` | frontend | Сборка фронтенда для продакшена |
