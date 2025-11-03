@@ -128,23 +128,6 @@ onMounted(loadOrders)
   margin-bottom: 1200px;
 }
 
-/* .container {
-  padding: 0 16px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
-}
-
-.glass {
-  background: var(--surface);
-  border-radius: var(--radius-16);
-  padding: 24px;
-  box-shadow: var(--shadow-1);
-  margin-top: 0;
-} */
-
-
-
 .glass h1 {
   font-size: 28px;
   margin: 0 0 8px;
